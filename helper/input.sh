@@ -12,7 +12,8 @@ email=$4;
 rootLogin=$5;
 rootPassword=$6;
 tinyKey=$7;
-autoUpdate=$8;
+gitHubOrganization=$8;
+#autoUpdate=$8;
 
 echo "Welcome to AirCms installer"
 

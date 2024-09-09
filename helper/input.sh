@@ -52,6 +52,11 @@ if [ ${#tinyKey} = 0 ]; then
   read tinyKey;
 fi;
 
+if [ ${#gitHubOrganization} = 0 ]; then
+  echo "Enter GitHub Organization name:";
+  read gitHubOrganization;
+fi;
+
 #if [ ${#autoUpdate} = 0 ]; then
 #  echo "Would you like to enable core automatic updates? ('yes' or 'no')";
 #  read autoUpdate;

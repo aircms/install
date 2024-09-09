@@ -9,6 +9,7 @@ git clone https://github.com/aircms/shop.git .;
 
 export COMPOSER_ALLOW_SUPERUSER=1;
 composer update;
+composer run-script assets;
 
 mkdir /var/www/fs;
 cd /var/www/fs;

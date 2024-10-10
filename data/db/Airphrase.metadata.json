@@ -1,1 +1,1 @@
-{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"fab9b95525ca4b1583232ffcfe35ddb1","collectionName":"Airphrase","type":"collection"}
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"dbaaa3191e9648ab966e020a6865d495","collectionName":"Airphrase","type":"collection"}

@@ -5,7 +5,7 @@ rootDirectory=$(realpath $(dirname $0));
 mkdir /var/www/shop;
 cd /var/www/shop;
 
-git clone "https://github.com/$gitHubOrganization/shop.git" .;
+git clone "git@github.com:$gitHubOrganization/shop.git" .;
 
 export COMPOSER_ALLOW_SUPERUSER=1;
 composer update;
@@ -14,9 +14,9 @@ composer run-script assets;
 mkdir /var/www/fs;
 cd /var/www/fs;
 
-git clone "https://github.com/$gitHubOrganization/fs.git" .;
-export COMPOSER_ALLOW_SUPERUSER=1;
+git clone "git@github.com:$gitHubOrganization/fs.git" .;
 
+export COMPOSER_ALLOW_SUPERUSER=1;
 composer update;
 composer run-script assets;
 composer run-script storage;

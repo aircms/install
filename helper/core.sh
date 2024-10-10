@@ -21,7 +21,7 @@ sudo apt install php -y;
 sudo apt install libapache2-mod-php -y;
 sudo apt install php-cli -y;
 sudo apt install php-common -y;
-sudo apt install php-mongodb -y;
+sudo apt install php8.3-mongodb -y;
 sudo apt install php-imap -y;
 sudo apt install php-mbstring -y;
 sudo apt install php-gd -y;
@@ -29,7 +29,7 @@ sudo apt install php-curl -y;
 sudo apt install php-xml -y;
 sudo apt install php-cli unzip composer -y;
 sudo apt install imagemagick -y;
-sudo apt install php-imagick -y;
+sudo apt install php8.3-imagick -y;
 sudo apt install ffmpeg -y;
 
 # Mongo

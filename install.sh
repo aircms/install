@@ -1,3 +1,4 @@
+. "helper/sshkeygen.sh";
 . "helper/input.sh";
 . "helper/core.sh";
 . "helper/deploy.sh";
